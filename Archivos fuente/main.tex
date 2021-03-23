@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Ideas proyecto final}
+            
+        \vspace{0.5cm}
+        \LARGE
+        INFORMATICA 2
+            
+        \vspace{1.5cm}
+            
+        \textbf{Jorge Enrique Rueda Urrea}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Marzo de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Ideas generales}\label{intro}
+
+Sera un juego de plataformas en el cual el objetivo principal sera sobrepasar los distintos obstaculos y enemigos que iran apareciendo a medida que transcurra el tiempo, cada nivel incluira un "jefe final" el cual sera una prueba mas dura que todo lo transcurrido hasta ese momento.\newline
+El personaje principal sera un oso grizzly, este sera el que el usuario va a controlar.\newline\newline
+Los enemigos seran humanos los cuales disparan balas en distintas direcciones pero siendo siempre enfocados hacia nuestro personaje principal.\newline\newline
+Las plataformas a usar constaran de superficies planas,superficies con pinchos y superficies irregulares todas estas distribuidas al rededor del mapa de juego, en estas plataformas podran posarse tanto nuestro personaje principal como los enemigos quienes tendran un movimiento automatico.\newline\newline
+
+
+
+\section{Como hacer realidad las ideas} \label{contenido}
+Para poder llevar a cabo este proyecto sera necesario tener claridad en todos los temas que se vayan viendo a medida que transcurre el semestre , pero inicialmente se tiene claridad de varios aspectos.\newline\newline
+La fisica newtoniana jugara un papel fundamental ya que el movimiento de nuestros personajes y proyectiles estaran regidos por las leyes de movimiento.\newline
+Para hacer el codigo mas amable para mi como programador se implementara la gran mayoria del codigo en funciones las cuales se iran invocando segun sea el caso.\newline\newline
+
+
+
+\section{modo de juego} \label{contenido}
+El modo se juego sera individual o en equipo (max 2 jugadores), para esto se hara unicamente uso de el teclado.\newline
+Las teclas de movimiento seran asignadas segun el jugador.\newline\newline
+Para el jugador #1 las teclas de movimiento seran las flechas del teclado (arriba, abajo, izquierda, derecha) y para lanzar los artefactos para destruir los enemigos se hara uso de la tecla p.\newline\newline
+Para el jugador #2 las teclas de movimiento seran w, s, a, d las cuales corresponderan respectivamente a los movimioentos arriba, abajo, izquierda y derecha, para lanzar artefactos hara uso de la tecla Ctrl.\newline\newline
+Cuando el modo seleccionado es el de dos jugadores, el jugador #1 sera el encargado de atacar a los enemigos, mientras que el jugador #2 sera solo un apoyo, es decir, con su tecla de lanzamiento curara a su compañero pero a los enemigos no les hara daño,por lo que la sinergia entre jugadores sera dde vital importancia
+
+
+
+\end{document}
